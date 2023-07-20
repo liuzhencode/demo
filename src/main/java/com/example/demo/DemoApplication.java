@@ -53,7 +53,7 @@ class Solution{
                 now.next=l2;
                 break;
             }else if(l2==null){
-                now.next=l1;
+                now.next=l1;//a
                 break;
             }else{
                 if(l1.val<=l2.val){
