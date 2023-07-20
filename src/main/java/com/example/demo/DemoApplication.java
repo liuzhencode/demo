@@ -55,6 +55,7 @@ class Solution{
             }else if(l2==null){
                 now.next=l1;//a
                 System.out.println("aaa");
+                System.out.println("bbb");
                 break;
             }else{
                 if(l1.val<=l2.val){
