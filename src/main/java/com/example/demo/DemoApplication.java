@@ -25,7 +25,7 @@ public class DemoApplication {
         ListNode res=s.mySort(l1);
 
         while(res!=null){
-            System.out.println(res.val);
+            System.out.println(res.val);//bb
             res=res.next;
         }
 //        SpringApplication.run(DemoApplication.class, args);
