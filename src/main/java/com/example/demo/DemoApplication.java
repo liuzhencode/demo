@@ -19,7 +19,7 @@ public class DemoApplication {
         head1=head1.next;
         head1.next=new ListNode(8);
         head1=head1.next;
-        head1.next=new ListNode(3);
+        head1.next=new ListNode(3); //aa
         head1=head1.next;
         Solution s=new Solution();
         ListNode res=s.mySort(l1);
